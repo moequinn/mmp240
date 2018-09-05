@@ -5,3 +5,8 @@ h1 {
 p {
 	text-align: center;
 }
+
+ul {
+	padding: 0px;
+	text-align: center;
+}
