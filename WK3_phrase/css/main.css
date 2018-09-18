@@ -1,0 +1,41 @@
+/* css (only at the top) */
+@import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans:600');
+
+body {
+    background-image: radial-gradient(rgba(225, 255, 255, 0.9), rgba(225, 165, 0, 0.9), rgba(225, 255, 0, 0.9));
+	font-family: "Monoton", cursive;
+	text-align: center;
+	margin-top: 10%;
+}
+
+h1 {
+    padding-top: 10px;
+    font-size: 120px;
+	color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    margin: 0px;
+}
+
+p {
+    font-family: "Lobster", cursive;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+ul {
+	padding: 0px;
+	text-align: center;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    color: rgba(240, 240, 240, 0.9);
+}
+
+a:hover {
+    text-decoration: underline;
+	background-color: rgba(255, 35, 99, 0.6);
+}
