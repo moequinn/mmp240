@@ -22,6 +22,10 @@ ul {
 	text-align: center;
 }
 
+li {
+    padding: 5px;
+}
+
 a:hover {
 	background-color: rgba(230,230,230,0.8);
 }
