@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Open+Sans:600');
 
 body {
-    background-image: radial-gradient(rgba(255, 255, 255, 0.9), rgba(226, 192, 68, 0.9), rgba(225, 255, 0, 0.9));
+    background-image: radial-gradient(rgba(30, 144, 255, 0.9), rgba(135, 206, 250, 0.9), rgba(0, 191, 255, 0.9));
 	font-family: "Monoton", cursive;
 	text-align: center;
 	margin-top: 10%;
@@ -11,15 +11,17 @@ body {
 h1 {
     padding-top: 10px;
     font-size: 110px;
-    color: rgba(57, 62, 65, 0.5);
+    background: -webkit-linear-gradient(white, lightyellow, lightblue, white, lightyellow, lightblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     margin: 0px;
 }
 
 p {
     font-family: "Lobster", cursive;
-    font-size: 24px;
-    color: rgba(57, 62, 65, 0.5);
+    font-size: 36px;
+    color: rgba( 0, 0, 0, 0.5);
 }
 
 ul {
@@ -28,14 +30,15 @@ ul {
 }
 
 li {
+    font-size: 36px;
     padding: 5px;
 }
 
 a {
-    color: rgba(57, 62, 65, 0.5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 a:hover {
     text-decoration: underline;
-	background-color: rgba(255, 35, 99, 0.6);
+	background-color: rgba(255, 255, 255, 0.6);
 }
