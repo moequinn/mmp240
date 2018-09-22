@@ -11,9 +11,10 @@ body {
 h1 {
     padding-top: 10px;
     font-size: 110px;
-    background: -webkit-linear-gradient(white, lightyellow, lightblue, white, lightyellow, lightblue);
+    background: -webkit-linear-gradient(white, lightblue, white, lightblue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow:1px 1px 100px white;
     text-decoration: none;
     margin: 0px;
 }
