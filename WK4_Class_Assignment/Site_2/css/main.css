@@ -44,4 +44,6 @@ article {
 footer {
     height: 150px;
     background-color: black;
+    margin-bottom: 10px;
+    clear: both;
 } 
