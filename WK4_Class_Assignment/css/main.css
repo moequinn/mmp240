@@ -1,0 +1,39 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	margin-top: 10%;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+	text-align: center;
+	color: rgba(3, 3, 3, 0.6);
+    border: 1px solid yellow;
+    margin: 0;
+    margin-top: 10px;
+}
+
+p {
+    color: white;
+}
+
+header {
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+section {
+    height: 400px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+} 
+
