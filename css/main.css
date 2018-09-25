@@ -24,6 +24,39 @@ ul {
 
 li {
     padding: 5px;
+    list-style: none;
+    float: left;
+    width: 24%;
+}
+
+.line {
+    padding: 1px;
+    margin-bottom: 12px
+}
+
+
+.button {
+    padding: 20px;
+    font-size: 9px;
+    display: inline;
+    width: 150px;
+    height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgba(250,250,250,0.8);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.cite {
+    clear: both;
+    margin-top: 100px;
 }
 
 a:hover {

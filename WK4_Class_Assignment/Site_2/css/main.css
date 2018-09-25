@@ -22,8 +22,8 @@ p {
 header {
     height: 300px;
     margin-top: 50px;
-    margin-bottom: 10px;
     background-color: black;
+    margin-bottom: 10px;
 }
 
 aside {
@@ -31,6 +31,7 @@ aside {
     width:29%;
     margin-right: 1%;
     background-color: black;
+    margin-bottom: 10px;
     float: left;
 }
 
@@ -38,6 +39,7 @@ article {
     height: 400px;
     width: 70%;
     background-color: black;
+    margin-bottom: 10px;
     float: right;
 }
 
