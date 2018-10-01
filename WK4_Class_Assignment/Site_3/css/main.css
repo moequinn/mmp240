@@ -1,3 +1,9 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
@@ -31,7 +37,7 @@ aside {
     width:33.33%;
     background-color: tomato;
     float: left;
-    margin-bottom: 10px;
+/*    margin-bottom: 10px;*/
 }
 
 article {
@@ -39,7 +45,13 @@ article {
     width: 33.33%;
     background-color: black;
     float: left;
+/*    margin-bottom: 10px;*/
+}
+
+section {
     margin-bottom: 10px;
+    clear: both;
+    height: 400px;
 }
 
 
