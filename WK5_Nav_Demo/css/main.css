@@ -25,35 +25,6 @@ p {
     color: white;
 }
 
-header {
-    height: 300px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    background-color: black;
-}
-
-aside {
-    height: 200px;
-    width:33.33%;
-    background-color: tomato;
-    float: left;
-/*    margin-bottom: 10px;*/
-}
-
-article {
-    height: 200px;
-    width: 33.33%;
-    background-color: black;
-    float: left;
-/*    margin-bottom: 10px;*/
-}
-
-section {
-    margin-bottom: 10px;
-    clear: both;
-    height: 400px;
-}
-
 nav {
     background-color: aquamarine;
     text-align: center;
