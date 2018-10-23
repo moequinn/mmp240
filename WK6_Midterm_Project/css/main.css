@@ -9,6 +9,48 @@ body {
     width: 80%;
 }
 
+/* css image slider */
+
+.fling-minislide {
+    width:100%; 
+    height:500px; 
+    overflow:hidden; 
+    position:relative; 
+}
+
+.fling-minislide img { 
+    position:absolute; 
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+}
+
+@keyframes fling-minislide {
+    25% {opacity:1;
+    } 
+    40% {opacity:0;
+    }
+} 
+
+.fling-minislide img:nth-child(4) {
+    animation-delay:0s;
+}
+
+.fling-minislide img:nth-child(3) {
+    animation-delay:5s;
+}
+
+.fling-minislide img:nth-child(2) {
+    animation-delay:10s;
+}
+
+.fling-minislide img:nth-child(1) {
+    animation-delay:15s;
+}
+
+/* end */
+
 .main {
     margin-top: 30px;
 }
@@ -28,7 +70,7 @@ p {
 header {
     padding: 2px;
     text-align: left;
-    height: 300px;
+    height: 650px;
     margin-top: 50px;
     margin-bottom: 10px;
     background-color: rgba(255, 250, 250, 0.5);
@@ -49,12 +91,17 @@ header {
 }
 
 .pic {
-    width: 100%;
+    /*width: 100%;*/
+    display: inline-block;
+    max-height: 650px;
+    width:100%;
 }
+
 
 section {
     text-align: left;
-    height: 400px;
+    height: 500px;
+    margin-top: 15px;
     margin-bottom: 10px;
     background-color: rgba(255, 250, 250, 0.5);
     clear: both;
