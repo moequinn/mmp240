@@ -21,6 +21,12 @@ h1 {
     margin-top: 20px;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
 p {
     color: rgba(0, 0, 0, 0.9);
 }
