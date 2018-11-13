@@ -226,6 +226,7 @@ aside2 {
 article2 {
     padding-bottom: 20px;
     margin-bottom: 30px;
+    height: 350px;
     width: 50%;
     float: right;
     overflow: hidden;
