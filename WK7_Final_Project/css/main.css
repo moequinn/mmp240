@@ -93,6 +93,30 @@ article2 {
     float: left;
 }
 
+/* map css */
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid grey;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* end */
+
 /* end */
 
 /* css for buttons and hover */
