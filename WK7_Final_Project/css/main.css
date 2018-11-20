@@ -124,6 +124,18 @@ aside {
     overflow: hidden;
 }
 
+.aside {
+    height: 575px;
+    width:28.7%;
+    margin-right: 1%;
+    border: 1px solid grey;
+    background-color: rgba(3, 3, 3, 0.2);
+    margin-bottom: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+
 article {
     height: 575px;
     width: 70%;
@@ -170,7 +182,11 @@ article {
 .images3 {
     width: 100%;
     border: 1px solid grey;
+}
 
+.logo {
+    width: 100%;
+    border: 1px solid grey;
 }
 
 /* end bottom of the map left and right div */
