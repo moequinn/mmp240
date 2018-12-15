@@ -63,6 +63,18 @@ p {
 	margin-bottom: 1.5em;
 }
 
+nav {
+    margin:auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
 b,
 strong {
 	font-weight: bold;
