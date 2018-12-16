@@ -76,7 +76,7 @@ a:hover
 }
 
 /*
- * Just a quick hamburger
+ * hamburger
  */
 #menuToggle span
 {
@@ -143,9 +143,8 @@ a:hover
 #menu
 {
   position: absolute;
-  width: 150px;
-  height: 100px;
-  margin: -100px 0 0 -50px;
+  width: 600px;
+  margin: -100px 0 0 -80px;
   padding: 50px;
   padding-top: 125px;
   padding-bottom: 100px;
