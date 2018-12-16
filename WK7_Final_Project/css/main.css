@@ -45,7 +45,7 @@ h1 {
 
 .images4 {
     width: 100%;
-    border: 1px black solid;
+   /* border: 1px black solid; */
 }
 
 .fling-minislide {
@@ -107,7 +107,18 @@ p {
     color: black;
 }
 
+.title2 {
+    color: black;
+    text-align: left;
+}
+
+.title3 {
+    color: black;
+    background-color: rgba(18, 224, 207, 0.2);
+}
+
 .info {
+    margin-bottom: 5px;
     color: black;
     width: 100%;
     background-color: rgba(0, 0, 0 , 0.3);
@@ -115,11 +126,15 @@ p {
 
 .detail {
     width: 100%;
+    height: 550px;
+    margin-bottom: 0px;
 }
 
 .text1 {
     /*background-color: rgba(194, 194, 194, 0.5);
     border: 1px solid grey;*/
+    margin-top: 10px;
+    margin-bottom: 3px;
     border-radius: 3px;
     color: rgba(0, 0, 0, 0.9);
     overflow: hidden;
@@ -128,7 +143,7 @@ p {
 header {
     height: 150px;
     padding-top: 1px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     background-color: rgba(3, 3, 3, 0.2);
     overflow: hidden;
 }
