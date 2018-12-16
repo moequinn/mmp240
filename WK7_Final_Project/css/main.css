@@ -103,6 +103,20 @@ p {
     overflow: hidden;
 }
 
+.title {
+    color: black;
+}
+
+.info {
+    color: black;
+    width: 100%;
+    background-color: rgba(0, 0, 0 , 0.3);
+}
+
+.detail {
+    width: 100%;
+}
+
 .text1 {
     /*background-color: rgba(194, 194, 194, 0.5);
     border: 1px solid grey;*/
@@ -260,6 +274,22 @@ article {
     width: 100%;
     border: 1px solid grey;
 }
+
+/* Tripp detail page css */
+.container {
+    position: relative;
+    background: lightgray;
+}
+
+.box {
+    position: absolute;
+    background-color: rgba(188, 224, 207, 0.6);
+    width: 100%;
+    right 0px;
+    top: 19px;
+}
+
+/* */
 
 /* end bottom of the map left and right div */
 
